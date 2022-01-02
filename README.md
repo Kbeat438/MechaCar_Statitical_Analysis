@@ -14,3 +14,14 @@
  1. The design specifications for the MEchaCar susprension coils variance required to not exceed 100 pounds per square inch. The manufacturing data meets these specifications for all manufactorings lots in total, but does not meet for each lot individually. Specifically, lot 3 is producing a variance of 170.2
 (https://raw.githubusercontent.com/Kbeat438/MechaCar_Statitical_Analysis/main/Images/Summary%20of%20PSI%20suspension%20coil%20data%20.png)
 (https://github.com/Kbeat438/MechaCar_Statitical_Analysis/blob/main/Images/Summary%20of%20PSI%20grouped%20by%20manufactoring%20lot%20.png)
+
+## T-Tests on Suspension Coils
+
+#Summary 
+The P value for all manufactoring lots is 1, meaning that our data does not support a rejection of the null hypothesis. The same is true for lot 3 with a p-value of .16. 
+Both lot 1 and 2 however have a P-Value extremely close to zero so we can infer that the differnce is unlikely to be due to chance. All 4 p-values, however, are within the 95% confidence interval for their mean
+
+(https://github.com/Kbeat438/MechaCar_Statitical_Analysis/blob/main/Images/T-test%20across%20all%20manufactoring%20lots.png)
+(https://github.com/Kbeat438/MechaCar_Statitical_Analysis/blob/main/Images/lot%201%20t-test.png)
+(https://github.com/Kbeat438/MechaCar_Statitical_Analysis/blob/main/Images/lot%202%20t-test.png)
+(https://github.com/Kbeat438/MechaCar_Statitical_Analysis/blob/main/Images/lot%203%20t-test.png)
