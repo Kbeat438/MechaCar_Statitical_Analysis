@@ -8,3 +8,9 @@
 
 (https://raw.githubusercontent.com/Kbeat438/MechaCar_Statitical_Analysis/main/Images/linear%20regression.png)
 (https://raw.githubusercontent.com/Kbeat438/MechaCar_Statitical_Analysis/main/Images/Summary%20linear%20regression.png)
+
+
+## Summary Statistics on Suspension Coils
+ 1. The design specifications for the MEchaCar susprension coils variance required to not exceed 100 pounds per square inch. The manufacturing data meets these specifications for all manufactorings lots in total, but does not meet for each lot individually. Specifically, lot 3 is producing a variance of 170.2
+(https://raw.githubusercontent.com/Kbeat438/MechaCar_Statitical_Analysis/main/Images/Summary%20of%20PSI%20suspension%20coil%20data%20.png)
+(https://github.com/Kbeat438/MechaCar_Statitical_Analysis/blob/main/Images/Summary%20of%20PSI%20grouped%20by%20manufactoring%20lot%20.png)
