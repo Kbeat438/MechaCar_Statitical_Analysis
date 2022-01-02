@@ -25,3 +25,11 @@ Both lot 1 and 2 however have a P-Value extremely close to zero so we can infer 
 (https://github.com/Kbeat438/MechaCar_Statitical_Analysis/blob/main/Images/lot%201%20t-test.png)
 (https://github.com/Kbeat438/MechaCar_Statitical_Analysis/blob/main/Images/lot%202%20t-test.png)
 (https://github.com/Kbeat438/MechaCar_Statitical_Analysis/blob/main/Images/lot%203%20t-test.png)
+
+## Study Design: MechaCar vs Competition
+1. A statistical study we can perform to quantify how the MechaCar performs against the competition is by comparing MPG, highway fuel efficency, and horse power.
+2. The hypothesis is that with a higher MPG and horse power rating the highway fuel efficency will by higher. The Alternative hypothesis is that a higher mpg and horse power will have a lower highway fuel efficency.
+3. Comparing the three based off a multiple linear regression would show how the variables influence highway fuel efficency and would show us how much they depend on one another. 
+4. The data needed to run this test is mpg, highway fuel efficency ratings, and horsepower of a list of cars produced by MechaCar and their competitors. 
+
+
