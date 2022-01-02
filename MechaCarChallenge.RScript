@@ -1,7 +1,23 @@
+#Deliverable 1
+#load dplyr package
 library(dplyr)
 
+#import and read MechaCar_mpg
 MechaCar_mpg <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F )
 
-lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD , data=MechaCar_mpg)
+#perfrom linear regression 
+S
 
+
+#summarize linear regression
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD , data=MechaCar_mpg))
+
+#Deliverable 2 
+# import and read suspension_coil
+Suspension_Coil <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F )
+
+#create total summary dataframe
+total_summary <- Suspension_Coil %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
+
+#create lot summary dataframe
+lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
