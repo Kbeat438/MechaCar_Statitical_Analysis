@@ -7,4 +7,4 @@
  3. According to the data that we are aloted, this data set is an effective Linear model for predicting MPG of MechaCar protoypes. The R squared value is .71 which is a good output for our data. There could however be more relevant data and this could very well be a case of overfitting. 
 
 (https://raw.githubusercontent.com/Kbeat438/MechaCar_Statitical_Analysis/main/Images/linear%20regression.png)
-(Images/Summary linear regression.png)
+(https://raw.githubusercontent.com/Kbeat438/MechaCar_Statitical_Analysis/main/Images/Summary%20linear%20regression.png)
